@@ -1,0 +1,9 @@
+[kafka]
+bootstrap_servers = ["localhost:9092",]
+topics = ["test", "test2"]
+group_id = "test"
+# security_protocol = "ssl"
+# ssl_cafile = "secret/ca/ca.crt"
+# ssl_certfile = "secret/test.crt"
+# ssl_keyfile = "secret/test.key"
+# ssl_check_hostname = false

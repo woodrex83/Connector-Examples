@@ -1,2 +1,14 @@
 # Connector-Examples
-Various examples of Python connectors for Kafka, MQTT, and other protocols.
+
+Python Examples of consumer and producer of Kafka, MQTT, RabbitMQ and so on.
+
++ Kafka: `confluent-kafka`
+
+## TODO
+- [ ] MQTT
+- [ ] AMQP
+- [ ] WebSocket
+- [ ] RPyC
+- [ ] Bacnet-MQTT
+
+

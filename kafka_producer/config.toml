@@ -1,0 +1,8 @@
+[kafka]
+bootstrap_server = "localhost:9092"
+topic = "test"
+# security_protocol = "ssl"
+# ssl_cafile = "secret/ca/ca.crt"
+# ssl_certfile = "secret/test.crt"
+# ssl_keyfile = "secret/test.key"
+# ssl_check_hostname = false

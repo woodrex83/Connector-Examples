@@ -15,7 +15,7 @@ async def main():
         async for message, headers in c:
             await message_log(message, headers)
     except KeyboardInterrupt:
-        await c.close()
+        c.close()
         
 if __name__ == '__main__':
     asyncio.run(main())
